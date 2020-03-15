@@ -16,23 +16,59 @@ df.columns.values
 df1 = df.loc[(df['userId'] == 470) & (df['utcTimestamp'].str.contains('Sun'))]
 df2 = df.loc[(df['userId'] == 470) & (df['utcTimestamp'].str.contains('Sat'))]
 
-# %%
-nyc = gpd.read_file('data/nycgiszoningfeatures_20/nyzd.shp')
-nyc = nyc.to_crs(epsg=4326)
-nyc.head()
-# nyc.plot()
+# %% save all categories to file
+venueCategory = df[['userId', 'venueCategory']].groupby('venueCategory', as_index=False).count()
+venueCategory = venueCategory.rename(columns={'userId':'count'})
+
+venueCategory.to_csv('data/category.csv')
 
 # %%
-plt.figure(figsize=(10,10))
-nyc.plot()
-plt.scatter(df['longitude'],df['latitude'],c='y')
+# user check-in category frequency
+df3 = df[['userId', 'venueCategory']].groupby(['userId', 'venueCategory']).venueCategory.agg('count').to_frame('count')
+df3 = df3.unstack().fillna(0)
+
+df3.columns = df3.columns.droplevel()
+
+df3.to_csv('data/user_loc_count.csv')
+#%%
+'''
+keywords for restaurants
+'Restaurant'
+'Food'
+'Joint'
+'Deli'
+'Diner'
+'Breakfast'
+'Steakhouse'
+'Pizza'
+'Sandwich'
+'Burrito'
+'Fish & Chips'
+'Salad'
+'Café'
+'Coffee'
+'Cupcake'
+'Donut'
+'Ice Cream'
+'Bagel'
+'Snack'
+'Candy' 
+'Brewery' 
+'Distillery' 
+'Winery' 
+'''
+# %% Restaurant type locations
+restaurant_keywords = ['Restaurant','Food','Joint','Deli','Diner',\
+                    'Breakfast','Steakhouse','Pizza','Noodle',\
+                    'Sandwich','Burrito','Fish & Chips','Salad',\
+                    'Café','Coffee','Cupcake','Donut','Ice Cream',\
+                    'Bagel','Taco','Snack','Candy','Brewery','Distillery',\
+                    'Winery','Gastropub','Soup']
+
+df4 = df[[any(s in cate for s in restaurant_keywords) for cate in df['venueCategory']]]
+
 
 # %%
-df3 = df[df['venueCategory'].str.contains('Restaurant')]
-
-
-# %%
-plt.scatter(df3['longitude'],df3['latitude'],c='y')
-
+plt.scatter(df4['longitude'],df4['latitude'],c='y')
 
 # %%

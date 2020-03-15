@@ -1,0 +1,252 @@
+,venueCategory,count,parentCategory,Food Type,Entertainment Type
+0,Afghan Restaurant,4,Food,Middle Eastern,
+1,African Restaurant,40,Food,African,
+2,Airport,2852,Travel & Transport,,
+3,American Restaurant,3701,Food,American,
+4,Animal Shelter,62,Professional & Other Places,,
+5,Antique Shop,27,Shop & Service,,Beauty
+6,Aquarium,11,Arts & Entertainment,,Animal
+7,Arcade,377,Arts & Entertainment,,Art
+8,Arepa Restaurant,20,Food,Latin American,
+9,Argentinian Restaurant,22,Food,Latin American,
+10,Art Gallery,486,Arts & Entertainment,,Art
+11,Art Museum,326,Arts & Entertainment,,Art
+12,Arts & Crafts Store,256,Shop & Service,,Art
+13,Arts & Entertainment,80,Arts & Entertainment,,Art
+14,Asian Restaurant,644,Food,Asian,
+15,Athletic & Sport,703,Outdoors & Recreation,,Sport
+16,Australian Restaurant,78,Food,Australian,
+17,Automotive Shop,579,Shop & Service,,Car
+18,BBQ Joint,684,Food,Fast Food,
+19,Bagel Shop,869,Food,Fast Food,
+20,Bakery,1586,Food,Sweet,
+21,Bank,2233,Shop & Service,,
+22,Bar,15978,Nightlife Spot,,
+23,Beach,575,Outdoors & Recreation,,Sea
+24,Beer Garden,549,Food,Alcohol,
+25,Bike Rental / Bike Share,9,Travel & Transport,,
+26,Bike Shop,169,Shop & Service,,Sport
+27,Board Shop,16,Shop & Service,,Sport
+28,Bookstore,665,Shop & Service,,Book
+29,Bowling Alley,220,Arts & Entertainment,,Sport
+30,Brazilian Restaurant,93,Food,Latin American,
+31,Breakfast Spot,504,Food,American,
+32,Brewery,114,Nightlife Spot,,
+33,Bridal Shop,51,Shop & Service,,Beauty
+34,Bridge,1527,Outdoors & Recreation,,Sightseeing
+35,Building,3474,Professional & Other Places,,
+36,Burger Joint,1654,Food,Fast Food,
+37,Burrito Place,293,Food,Latin American,
+38,Bus Station,4474,Travel & Transport,,
+39,Café,1585,Food,Drink,
+40,Cajun / Creole Restaurant,49,Food,American,
+41,Camera Store,34,Shop & Service,,Art
+42,Campground,186,Outdoors & Recreation,,Sport
+43,Candy Store,201,Shop & Service,,Food
+44,Car Dealership,31,Shop & Service,,Car
+45,Car Wash,32,Shop & Service,,Car
+46,Caribbean Restaurant,421,Food,American,
+47,Casino,123,Arts & Entertainment,,Game
+48,Castle,2,Outdoors & Recreation,,History
+49,Cemetery,179,Outdoors & Recreation,,
+50,Chinese Restaurant,1498,Food,Asian,
+51,Church,1172,Professional & Other Places,,
+52,City,832,Professional & Other Places,,
+53,Clothing Store,2976,Shop & Service,,
+54,Coffee Shop,7510,Food,Drink,
+55,College & University,56,College & University,,
+56,College Academic Building,3479,College & University,,
+57,College Stadium,75,College & University,,
+58,College Theater,39,College & University,,
+59,Comedy Club,150,Arts & Entertainment,,Play
+60,Community College,272,College & University,,
+61,Concert Hall,259,Arts & Entertainment,,Play
+62,Convenience Store,652,Shop & Service,,Food
+63,Convention Center,387,Professional & Other Places,,
+64,Cosmetics Shop,537,Shop & Service,,Beauty
+65,Cuban Restaurant,365,Food,American,
+66,Cupcake Shop,273,Food,Sweet,
+67,Deli / Bodega,4214,Food,Fast Food,
+68,Department Store,1826,Shop & Service,,Food
+69,Design Studio,131,Shop & Service,,Art
+70,Dessert Shop,490,Food,Sweet,
+71,Dim Sum Restaurant,54,Food,Asian,
+72,Diner,1376,Food,American,
+73,Distillery,8,Professional & Other Places,Sweet,
+74,Donut Shop,1168,Food,Sweet,
+75,Drugstore / Pharmacy,2488,Shop & Service,,
+76,Dumpling Restaurant,48,Food,Asian,
+77,Eastern European Restaurant,88,Food,European,
+78,Electronics Store,1361,Shop & Service,,Electronics
+79,Elementary School,140,Professional & Other Places,,
+80,Embassy / Consulate,37,Professional & Other Places,,
+81,Ethiopian Restaurant,18,Food,Middle Eastern,
+82,Event Space,677,Professional & Other Places,,
+83,Factory,112,Professional & Other Places,,
+84,Fair,24,Professional & Other Places,,
+85,Falafel Restaurant,117,Food,Middle Eastern,
+86,Fast Food Restaurant,1600,Food,Fast Food,
+87,Ferry,892,Travel & Transport,,
+88,Filipino Restaurant,40,Food,Asian,
+89,Financial or Legal Service,50,Shop & Service,,
+90,Fish & Chips Shop,11,Food,European,
+91,Flea Market,243,Shop & Service,,Market
+92,Flower Shop,56,Shop & Service,,Plant
+93,Food,172,Food,Fast Food,
+94,Food & Drink Shop,6596,Shop & Service,,Food
+95,Food Truck,769,Food,Fast Food,
+96,Fraternity House,41,College & University,,
+97,French Restaurant,725,Food,European,
+98,Fried Chicken Joint,393,Food,Fast Food,
+99,Funeral Home,64,Professional & Other Places,,
+100,Furniture / Home Store,565,Shop & Service,,
+101,Gaming Cafe,14,Shop & Service,,Game
+102,Garden,288,Outdoors & Recreation,,Plant
+103,Garden Center,25,Shop & Service,,Plant
+104,Gas Station / Garage,1321,Professional & Other Places,,
+105,Gastropub,332,Food,Alcohol,
+106,General College & University,455,College & University,,
+107,General Entertainment,1334,Arts & Entertainment,,Game
+108,General Travel,1159,Travel & Transport,,
+109,German Restaurant,184,Food,European,
+110,Gift Shop,151,Shop & Service,,
+111,Gluten-free Restaurant,5,Food,Health,
+112,Government Building,1589,Professional & Other Places,,
+113,Greek Restaurant,141,Food,European,
+114,Gym / Fitness Center,9171,Arts & Entertainment,,Sport
+115,Harbor / Marina,342,Outdoors & Recreation,,Sightseeing
+116,Hardware Store,455,Shop & Service,,Craft
+117,High School,648,Professional & Other Places,,
+118,Historic Site,235,Arts & Entertainment,,History
+119,History Museum,83,Arts & Entertainment,,History
+120,Hobby Shop,49,Shop & Service,,
+121,Home (private),15382,Residence,,
+122,Hot Dog Joint,281,Food,Fast Food,
+123,Hotel,2860,Travel & Transport,,
+124,Housing Development,250,Residence,,
+125,Ice Cream Shop,831,Food,Sweet,
+126,Indian Restaurant,372,Food,Asian,
+127,Internet Cafe,6,Shop & Service,,Electronics
+128,Italian Restaurant,1816,Food,European,
+129,Japanese Restaurant,469,Food,Asian,
+130,Jewelry Store,121,Shop & Service,,Beauty
+131,Korean Restaurant,402,Food,Asian,
+132,Latin American Restaurant,372,Food,Latin American,
+133,Laundry Service,721,Shop & Service,,
+134,Law School,77,College & University,,
+135,Library,486,Professional & Other Places,,
+136,Light Rail,733,Travel & Transport,,
+137,Mac & Cheese Joint,36,Food,Fast Food,
+138,Malaysian Restaurant,43,Food,Asian,
+139,Mall,1187,Shop & Service,,Market
+140,Market,113,Shop & Service,,Market
+141,Medical Center,3366,Professional & Other Places,,
+142,Medical School,53,College & University,,
+143,Mediterranean Restaurant,180,Food,European,
+144,Mexican Restaurant,2043,Food,Latin American,
+145,Middle Eastern Restaurant,189,Food,Middle Eastern,
+146,Middle School,56,Professional & Other Places,,
+147,Military Base,23,Professional & Other Places,,
+148,Miscellaneous Shop,1066,Shop & Service,,Market
+149,Mobile Phone Shop,87,Shop & Service,,Electronics
+150,Molecular Gastronomy Restaurant,58,Food,Fancy,
+151,Moroccan Restaurant,13,Food,European,
+152,Mosque,36,Professional & Other Places,,
+153,Motorcycle Shop,2,Shop & Service,,Sport
+154,Movie Theater,2158,Arts & Entertainment,,Play
+155,Moving Target,524,Travel & Transport,,
+156,Museum,175,Arts & Entertainment,,Science
+157,Music School,1,Professional & Other Places,,
+158,Music Store,54,Shop & Service,,Play
+159,Music Venue,1424,Arts & Entertainment,,Play
+160,Nail Salon,88,Shop & Service,,Beauty
+161,Neighborhood,4604,Professional & Other Places,,
+162,Newsstand,12,Shop & Service,,Book
+163,Nightlife Spot,20,Nightlife Spot,,
+164,Nursery School,94,Professional & Other Places,,
+165,Office,12740,Professional & Other Places,,
+166,Other Great Outdoors,4134,Outdoors & Recreation,,Sightseeing
+167,Other Nightlife,267,Nightlife Spot,,
+168,Outdoors & Recreation,194,Outdoors & Recreation,,Sightseeing
+169,Paper / Office Supplies Store,258,Shop & Service,,
+170,Park,4804,Outdoors & Recreation,,Sightseeing
+171,Parking,541,Professional & Other Places,,
+172,Performing Arts Venue,561,Arts & Entertainment,,Art
+173,Peruvian Restaurant,23,Food,American,
+174,Pet Service,3,Shop & Service,,Animal
+175,Pet Store,302,Shop & Service,,Animal
+176,Photography Lab,2,Shop & Service,,Art
+177,Pizza Place,2469,Food,Fast Food,
+178,Planetarium,11,Arts & Entertainment,,Science
+179,Playground,497,Outdoors & Recreation,,Sport
+180,Plaza,1515,Outdoors & Recreation,,Market
+181,Pool,184,Outdoors & Recreation,,Sport
+182,Pool Hall,100,Arts & Entertainment,,Sport
+183,Portuguese Restaurant,9,Food,European,
+184,Post Office,741,Professional & Other Places,,
+185,Professional & Other Places,159,Professional & Other Places,,
+186,Public Art,25,Arts & Entertainment,,Art
+187,Racetrack,76,Arts & Entertainment,,Sport
+188,Ramen /  Noodle House,332,Food,Asian,
+189,Record Shop,112,Shop & Service,,Play
+190,Recycling Facility,56,Shop & Service,,Sport
+191,Rental Car Location,48,Travel & Transport,,
+192,Residential Building (Apartment / Condo),4185,Residence,,
+193,Rest Area,131,Travel & Transport,,
+194,Restaurant,625,Food,Food,
+195,River,145,Outdoors & Recreation,,Sightseeing
+196,Road,3207,Travel & Transport,,
+197,Salad Place,199,Food,Health,
+198,Salon / Barbershop,1476,Shop & Service,,Beauty
+199,Sandwich Place,1719,Food,Fast Food,
+200,Scandinavian Restaurant,22,Food,European,
+201,Scenic Lookout,483,Outdoors & Recreation,,Sightseeing
+202,School,1143,Professional & Other Places,,
+203,Science Museum,81,Arts & Entertainment,,Science
+204,Sculpture Garden,160,Outdoors & Recreation,,Art
+205,Seafood Restaurant,668,Food,SeaFood,
+206,Shop & Service,38,Shop & Service,,Market
+207,Shrine,48,Professional & Other Places,,
+208,Ski Area,32,Outdoors & Recreation,,Sport
+209,Smoke Shop,211,Shop & Service,,
+210,Snack Place,115,Food,Fast Food,
+211,Sorority House,4,College & University,,
+212,Soup Place,162,Food,Health,
+213,South American Restaurant,99,Food,Latin American,
+214,Southern / Soul Food Restaurant,154,Food,Fancy,
+215,Spa / Massage,499,Shop & Service,,Beauty
+216,Spanish Restaurant,272,Food,European,
+217,Spiritual Center,64,Professional & Other Places,,
+218,Sporting Goods Shop,427,Shop & Service,,Sport
+219,Stadium,1120,Arts & Entertainment,,Sport
+220,Steakhouse,369,Food,American,
+221,Storage Facility,15,Shop & Service,,
+222,Student Center,257,College & University,,
+223,Subway,9348,Travel & Transport,,
+224,Sushi Restaurant,881,Food,Asian,
+225,Swiss Restaurant,12,Food,European,
+226,Synagogue,188,Professional & Other Places,,
+227,Taco Place,241,Food,American,
+228,Tanning Salon,89,Shop & Service,,Beauty
+229,Tapas Restaurant,186,Food,European,
+230,Tattoo Parlor,132,Shop & Service,,Beauty
+231,Taxi,185,Travel & Transport,,
+232,Tea Room,254,Food,Drink,
+233,Temple,61,Professional & Other Places,,
+234,Thai Restaurant,593,Food,Asian,
+235,Theater,1082,Arts & Entertainment,,Play
+236,Thrift / Vintage Store,184,Shop & Service,,Beauty
+237,Toy / Game Store,229,Shop & Service,,Game
+238,Trade School,71,College & University,,
+239,Train Station,6408,Travel & Transport,,
+240,Travel & Transport,44,Travel & Transport,,
+241,Travel Lounge,38,Travel & Transport,,
+242,Turkish Restaurant,20,Food,European,
+243,University,1071,College & University,,
+244,Vegetarian / Vegan Restaurant,350,Food,Health,
+245,Video Game Store,123,Shop & Service,,Game
+246,Video Store,42,Shop & Service,,Play
+247,Vietnamese Restaurant,180,Food,Asian,
+248,Winery,31,Professional & Other Places,,
+249,Wings Joint,149,Food,Fast Food,
+250,Zoo,104,Arts & Entertainment,,Animal

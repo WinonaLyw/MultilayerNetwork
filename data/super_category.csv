@@ -1,0 +1,251 @@
+Afghan Restaurant,Middle Eastern,Restaurant
+African Restaurant,African,Restaurant
+Airport,Transport,Transport
+American Restaurant,American,Restaurant
+Animal Shelter,Animal,Animal
+Antique Shop,Beauty,Antique
+Aquarium,Animal,Animal
+Arcade,Art,Museum
+Arepa Restaurant,American,Restaurant
+Argentinian Restaurant,Restaurant
+Art Gallery,Art,Museum
+Art Museum,Art,Museum
+Arts & Crafts Store,Art,Shop
+Arts & Entertainment,Art,Art
+Asian Restaurant,Asian,Restaurant
+Athletic & Sport,Sports,Health
+Australian Restaurant,Restaurant
+Automotive Shop,Car,Car
+BBQ Joint,Fast Food,Restaurant
+Bagel Shop,Fast Food,Restaurant
+Bakery,Sweet,Restaurant
+Bank,Government,Work
+Bar,Alcohol,Restaurant
+Beach,Sea,Outdoors
+Beer Garden,Alcohol,Restaurant
+Bike Rental / Bike Share,Sports,Health
+Bike Shop,Sport,Health
+Board Shop,Sport,Health
+Bookstore,Book,Art
+Bowling Alley,Sports,Health
+Brazilian Restaurant,American,Restaurant
+Breakfast Spot,Fast Food,Restaurant
+Brewery,Alcohol,Restaurant
+Bridal Shop,Others,Shop
+Bridge,Outdoors,Transport
+Building,Others,Building
+Burger Joint,Fast Food,Restaurant
+Burrito Place,Latin American,Restaurant
+Bus Station,Transport,Transport
+Café,Drink,Restaurant
+Cajun / Creole Restaurant,American,Restaurant
+Camera Store,Photography,Art
+Campground,Nature,Outdoors
+Candy Store,Sweet,Restaurant
+Car Dealership,Car,Shop
+Car Wash,Car,Car
+Caribbean Restaurant,American,Restaurant
+Casino,Gambling,Entertain
+Castle,Historical,Art
+Cemetery,Others,Others
+Chinese Restaurant,Asian,Restaurant
+Church,Christian,Religion
+City,Others,Others
+Clothing Store,Mall,Beauty
+Coffee Shop,Drink,Restaurant
+College & University,School,Work
+College Academic Building,School,Work
+College Stadium,Sport,School
+College Theater,Art,School
+Comedy Club,Art,Entertain
+Community College,School,Work
+Concert Hall,Art,Indoors
+Convenience Store,,Mall
+Convention Center,,Mall
+Cosmetics Shop,Beauty,Mall
+Cuban Restaurant,American,Restaurant
+Cupcake Shop,Sweet,Restaurant
+Deli / Bodega,Fast Food,Restaurant
+Department Store,,Mall
+Design Studio,Art,Indoors
+Dessert Shop,Sweet,Restaurant
+Dim Sum Restaurant,Asian,Restaurant
+Diner,,Restaurant
+Distillery,Alcohol,Restaurant
+Donut Shop,Sweet,Restaurant
+Drugstore / Pharmacy,Pharmacy,Shop
+Dumpling Restaurant,Asian,Restaurant
+Eastern European Restaurant,European,Restaurant
+Electronics Store,Electronics,Shop
+Elementary School,,School
+Embassy / Consulate,Work,Government
+Ethiopian Restaurant,African,Restaurant
+Event Space,,Indoors
+Factory,Factory,Work
+Fair,,Outdoors
+Falafel Restaurant,Middle Eastern,Restaurant
+Fast Food Restaurant,Fast Food,Restaurant
+Ferry,Transport,Transport
+Filipino Restaurant,Asian,Restaurant
+Financial or Legal Service,Financial,Work
+Fish & Chips Shop,European,Restaurant
+Flea Market,,Outdoors
+Flower Shop,Art,Shop
+Food,Fast Food,Restaurant
+Food & Drink Shop,Fast Food,Restaurant
+Food Truck,Fast Food,Restaurant
+Fraternity House,Care,Indoors
+French Restaurant,European,Restaurant
+Fried Chicken Joint,Fast Food,Restaurant
+Funeral Home,Special,Others
+Furniture / Home Store,Home,Shop
+Gaming Cafe,Game,Indoors
+Garden,Plant,Outdoors
+Garden Center,Plant,Outdoors
+Gas Station / Garage,Car,Shop
+Gastropub,Alcohol,Restaurant
+General College & University,School,Work
+General Entertainment,Entertainment,Indoors
+General Travel,Travel,Outdoors
+German Restaurant,European,Restaurant
+Gift Shop,Others,Shop
+Gluten-free Restaurant,Health,Restaurant
+Government Building,
+Greek Restaurant,European,Restaurant
+Gym / Fitness Center,Sport,Indoors
+Harbor / Marina,Sea,Outdoors
+Hardware Store,Electronics,Shop
+High School,School,Work
+Historic Site,Historic,Art
+History Museum,Historic,Art
+Hobby Shop,Hobby,Shop
+Home (private),Home,Building
+Hot Dog Joint,Fast Food,Resaurant
+Hotel,Hotel,Building
+Housing Development,Home,Building
+Ice Cream Shop,Sweet,Restaurant
+Indian Restaurant,Middle East,Restaurant
+Internet Cafe,Electronics,Indoors
+Italian Restaurant,European,Restaurant
+Japanese Restaurant,Asian,Restaurant
+Jewelry Store,Beauty,Shop
+Korean Restaurant,Asian,Restaurant
+Latin American Restaurant,Latin American,Restaurant
+Laundry Service,Function,Building
+Law School,Work,School
+Library,Book,Art
+Light Rail,Transport,Transport
+Mac & Cheese Joint,Fast Food,Restaurant
+Malaysian Restaurant,Asian,Restaurant
+Mall,Indoors,Shop
+Market,Outdoors,Shop
+Medical Center,Medical,Building
+Medical School,Work,School
+Mediterranean Restaurant,European,Restaurant
+Mexican Restaurant,Latin American,Restaurant
+Middle Eastern Restaurant,Middle Eastern,Restaurant
+Middle School,School,Work
+Military Base,Government,Work
+Miscellaneous Shop,Shop,Indoors
+Mobile Phone Shop,Electronics,Indoors
+Molecular Gastronomy Restaurant,Fancy,Restaurant
+Moroccan Restaurant,European,Restaurant
+Mosque,Middle Eastern,Religion
+Motorcycle Shop,Sport,Outdoors
+Movie Theater,Movie,Art
+Moving Target,Moving Target,Moving Target
+Museum,Museum,Art
+Music School,Music,School
+Music Store,Music,Shop
+Music Venue,Music,Indoors
+Nail Salon,Beauty,Shop
+Neighborhood,Neighborhood,Neighborhood
+Newsstand,Book,Shop
+Nightlife Spot,NightLife,Indoors
+Nursery School,School,Work
+Office,Work,Building
+Other Great Outdoors,Outdoors,Outdoors
+Other Nightlife,NightLife,Indoors
+Outdoors & Recreation,Art,Outdoors
+Paper / Office Supplies Store,Office,Shop
+Park,Nature,Outdoor
+Parking,Car,Building
+Performing Arts Venue,Performance,Art
+Peruvian Restaurant,American,Restaurant
+Pet Service,Animal,Shop
+Pet Store,Animal,Shop
+Photography Lab,Photography,Shop
+Pizza Place,Fast Food,Restaurant
+Planetarium,Museum,Art
+Playground,Sports,Outdoors
+Plaza,Mall,Mall
+Pool,Sports,Indoors
+Pool Hall,Sports,Indoors
+Portuguese Restaurant,European,Restaurant
+Post Office,Government,Building
+Professional & Other Places,Work,Buidling
+Public Art,Art,Art
+Racetrack,Sports,Outdoors
+Ramen /  Noodle House,Asian,Restaurant
+Record Shop,Music,Shop
+Recycling Facility,Facility,Facility
+Rental Car Location,Car,Car
+Residential Building (Apartment / Condo),Home,Building
+Rest Area,Rest,Rest
+Restaurant,General,Restaurant
+River,Nature,Outdoors
+Road,Transport,Transport
+Salad Place,Health,Restaurant
+Salon / Barbershop,Barber,Beauty
+Sandwich Place,Fast Food,Restaurant
+Scandinavian Restaurant,European,Restaurant
+Scenic Lookout,Nature,Entertain
+School,School,School
+Science Museum,Science,Museum
+Sculpture Garden,Sculpture,Art
+Seafood Restaurant,Seafood,Restaurant
+Shop & Service,Shop,Shop
+Shrine,Catholicism,Religion
+Ski Area,Sport,Outdoor
+Smoke Shop,Hobby,Shop
+Snack Place,Snack,Shop
+Sorority House,Care,Service
+Soup Place,Fast Food,Restaurant
+South American Restaurant,American,Restaurant
+Southern / Soul Food Restaurant,Fancy,Resraurant
+Spa / Massage,Beauty,Spa
+Spanish Restaurant,European,Restaurant
+Spiritual Center,Care,Service
+Sporting Goods Shop,Sport,Shop
+Stadium,Sport,Sport
+Steakhouse,Western,Restaurant
+Storage Facility,Facility,Facility
+Student Center,Facility,School
+Subway,Transport,Transport
+Sushi Restaurant,Asian,Restaurant
+Swiss Restaurant,European,Restaurant
+Synagogue,Jewish,Religion
+Taco Place,American,Restaurant
+Tanning Salon,Beauty,Salon
+Tapas Restaurant,European,Restaurant
+Tattoo Parlor,Beauty,Tattoo
+Taxi,Transport,Transport
+Tea Room,Drink,Restaurant
+Temple,Buddhist,Religion
+Thai Restaurant,Asian,Restaurant
+Theater,Movie,Art
+Thrift / Vintage Store,Vintage,Shop
+Toy / Game Store,Game,Store
+Trade School,School,School
+Train Station,Transport,Transport
+Travel & Transport,Transport,Transport
+Travel Lounge,Transport,Transport
+Turkish Restaurant,European,Restaurant
+University,School,Scool
+Vegetarian / Vegan Restaurant,Health,Restaurant
+Video Game Store,Game,Shop
+Video Store,Art,Shop
+Vietnamese Restaurant,Asian,Restaurant
+Winery,Alcohol,Restaurant
+Wings Joint,Fast Food,Restaurant
+Zoo,Animal,Zoo
