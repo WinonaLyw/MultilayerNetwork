@@ -1,7 +1,6 @@
 # %%
 from sklearn.neighbors import NearestNeighbors
 
-
 # %% KDTree
 
 nn = neighbors.NearestNeighbors(n_neighbors=2, metric='euclidean')

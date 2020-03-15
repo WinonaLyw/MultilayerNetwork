@@ -1,3 +1,10 @@
+'''
+load csv of download check-ins
+groupby user and venueCategory
+transform dataframe to user_id as index, venueCategory as columns
+retrieve all venueCategory values and total visti count
+'''
+
 # %%
 import pandas as pd
 import geopandas as gpd

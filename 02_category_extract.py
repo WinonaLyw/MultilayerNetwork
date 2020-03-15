@@ -1,3 +1,8 @@
+'''
+extract category list from Foursquare site category list html file list tag
+map venueCategory with the parent category
+(manually input Unknown ones)
+'''
 # %%
 import xml.etree.ElementTree as ET
 import pandas as pd
