@@ -16,12 +16,17 @@ df = pd.read_csv('data/dataset_TSMC2014_NYC.csv')
 # %%
 df.head()
 
-# %%
-df.columns.values
+print (df.columns.values)
 
-# %%
-df1 = df.loc[(df['userId'] == 470) & (df['utcTimestamp'].str.contains('Sun'))]
-df2 = df.loc[(df['userId'] == 470) & (df['utcTimestamp'].str.contains('Sat'))]
+# %% total check-ins per user
+visit = df.groupby('userId').count()['venueCategory']
+
+plt.subplot(121)
+plt.boxplot(visit)
+plt.subplot(122)
+visit.hist()
+
+visit.describe()
 
 # %% save all categories to file
 venueCategory = df[['userId', 'venueCategory']].groupby('venueCategory', as_index=False).count()
@@ -37,33 +42,7 @@ df3 = df3.unstack().fillna(0)
 df3.columns = df3.columns.droplevel()
 
 df3.to_csv('data/user_loc_count.csv')
-#%%
-'''
-keywords for restaurants
-'Restaurant'
-'Food'
-'Joint'
-'Deli'
-'Diner'
-'Breakfast'
-'Steakhouse'
-'Pizza'
-'Sandwich'
-'Burrito'
-'Fish & Chips'
-'Salad'
-'Café'
-'Coffee'
-'Cupcake'
-'Donut'
-'Ice Cream'
-'Bagel'
-'Snack'
-'Candy' 
-'Brewery' 
-'Distillery' 
-'Winery' 
-'''
+
 # %% Restaurant type locations
 restaurant_keywords = ['Restaurant','Food','Joint','Deli','Diner',\
                     'Breakfast','Steakhouse','Pizza','Noodle',\

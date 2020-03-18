@@ -21,7 +21,7 @@
 19,Bagel Shop,869,Food,Fast Food,
 20,Bakery,1586,Food,Sweet,
 21,Bank,2233,Shop & Service,,
-22,Bar,15978,Nightlife Spot,,
+22,Bar,15978,Nightlife Spot,,Nightlife Spot
 23,Beach,575,Outdoors & Recreation,,Sea
 24,Beer Garden,549,Food,Alcohol,
 25,Bike Rental / Bike Share,9,Travel & Transport,,
@@ -31,7 +31,7 @@
 29,Bowling Alley,220,Arts & Entertainment,,Sport
 30,Brazilian Restaurant,93,Food,Latin American,
 31,Breakfast Spot,504,Food,American,
-32,Brewery,114,Nightlife Spot,,
+32,Brewery,114,Nightlife Spot,,Nightlife Spot
 33,Bridal Shop,51,Shop & Service,,Beauty
 34,Bridge,1527,Outdoors & Recreation,,Sightseeing
 35,Building,3474,Professional & Other Places,,
@@ -162,11 +162,11 @@
 160,Nail Salon,88,Shop & Service,,Beauty
 161,Neighborhood,4604,Professional & Other Places,,
 162,Newsstand,12,Shop & Service,,Book
-163,Nightlife Spot,20,Nightlife Spot,,
+163,Nightlife Spot,20,Nightlife Spot,,Nightlife Spot
 164,Nursery School,94,Professional & Other Places,,
 165,Office,12740,Professional & Other Places,,
 166,Other Great Outdoors,4134,Outdoors & Recreation,,Sightseeing
-167,Other Nightlife,267,Nightlife Spot,,
+167,Other Nightlife,267,Nightlife Spot,,Nightlife Spot
 168,Outdoors & Recreation,194,Outdoors & Recreation,,Sightseeing
 169,Paper / Office Supplies Store,258,Shop & Service,,
 170,Park,4804,Outdoors & Recreation,,Sightseeing
