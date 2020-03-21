@@ -25,6 +25,15 @@ user_poi.to_csv('data/user_poi.csv')
 food_locations = food_checkins.drop_duplicates(['venueId'])[['venueId','venueCategory','latitude','longitude']]
 
 # %%
+import smopy
+
+M = smopy.Map((40.63080, -73.68390, 40.95840, -74.16000), z=13, margin=.5)
+ax = M.show_mpl(figsize=(10, 12))
+x, y = M.to_pixels(food_locations['latitude'], food_locations['longitude'])
+ax.scatter(x, y, alpha=0.5)
+plt.savefig('output/food_checkins.png')
+
+# %%
 food_locations.to_csv('data/poi.csv')
 
 # %%
@@ -42,7 +51,7 @@ for ftype in food_type:
         v1 = v_list.loc[ind_list[i1]]
         for i2 in range(i1+1,M):
             v2 = v_list.loc[ind_list[i2]]
-            sim.append([v1['venueId'], v2['venueId'], 2 if v1['venueCategory'] == v2['venueCategory'] else 1])
+            sim.append([v1['venueId'], v2['venueId'], 1 if v1['venueCategory'] == v2['venueCategory'] else 2])
 
 sim_df = pd.DataFrame(sim, columns=cols)
 # %%

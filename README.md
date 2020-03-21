@@ -2,6 +2,12 @@
 ## Network Data Analysis CW 2
 ## Multi-layer networks
 
+### Package 
+1. pandas
+2. matlibplot
+3. xml
+4. smopy
+5. sklearn
 
 ### Data source
 1. [NYC Foursquare Checkins](https://www.kaggle.com/chetanism/foursquare-nyc-and-tokyo-checkin-dataset)

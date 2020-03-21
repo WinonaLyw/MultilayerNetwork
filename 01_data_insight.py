@@ -7,7 +7,6 @@ retrieve all venueCategory values and total visti count
 
 # %%
 import pandas as pd
-import geopandas as gpd
 import matplotlib.pyplot as plt
 
 # %%
@@ -20,13 +19,31 @@ print (df.columns.values)
 
 # %% total check-ins per user
 visit = df.groupby('userId').count()['venueCategory']
-
+fig = plt.figure(figsize=(10,5))
+fig.suptitle('Boxplot and Histogram for Total # of check-ins per user')
 plt.subplot(121)
 plt.boxplot(visit)
+plt.xticks([])
+plt.ylabel('# of check-ins')
 plt.subplot(122)
+plt.xlabel('# of check-ins')
 visit.hist()
+plt.savefig('output/user_checkins.png')
+
 
 visit.describe()
+
+'''
+count    1083.000000
+mean      209.998153
+std       188.464409
+min       100.000000
+25%       120.000000
+50%       153.000000
+75%       220.000000
+max      2697.000000
+'''
+
 
 # %% save all categories to file
 venueCategory = df[['userId', 'venueCategory']].groupby('venueCategory', as_index=False).count()
