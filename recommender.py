@@ -16,7 +16,7 @@ class FoodRecommender:
         self.poi_connect_n = pd.read_csv('data/poi_connection.csv',index_col=0)
         self.user_poi_n = pd.read_csv('data/user_poi.csv',index_col=0)
 
-    def recommend(self, userId, lat, lon):
+    def recommend(self, userId, lat, lon, with_item_based=False):
         '''
         Parameter:
         userId: target user id
@@ -60,19 +60,20 @@ class FoodRecommender:
 
         users_food_link_user_based_rate = self.calculate_user_based_rate(userId, users_food_link, similar_users)
         print (users_food_link_user_based_rate.nlargest(10, 'user_based_rate'))
+        if not with_item_based :
+            return users_food_link_user_based_rate.nlargest(10, 'user_based_rate')
+        else :
+            users_food_link_item_based_rate = self.calculate_venue_based_rate(user_f_link, food_venues)
+            print (users_food_link_item_based_rate.nlargest(10, 'item_based_rate'))
 
-        print (user_f_link.head())
-        users_food_link_item_based_rate = self.calculate_venue_based_rate(user_f_link, food_venues)
-        print (users_food_link_item_based_rate.nlargest(10, 'item_based_rate'))
+            users_food_link_rated = pd.merge(users_food_link_user_based_rate, users_food_link_item_based_rate, left_index=True, right_index=True,  how='outer')
+            users_food_link_rated = users_food_link_rated.fillna(0)
 
-        users_food_link_rated = pd.merge(users_food_link_user_based_rate, users_food_link_item_based_rate, left_index=True, right_index=True,  how='outer')
-        users_food_link_rated = users_food_link_rated.fillna(0)
+            print (users_food_link_rated.head())
 
-        print (users_food_link_rated.head())
-
-        users_food_link_rated['rate'] = users_food_link_rated.apply(lambda row: row['user_based_rate'] + row['item_based_rate'], axis = 1)
-        
-        return users_food_link_rated.nlargest(10, 'rate')
+            users_food_link_rated['rate'] = users_food_link_rated.apply(lambda row: row['user_based_rate'] + row['item_based_rate'], axis = 1)
+            
+            return users_food_link_rated.nlargest(10, 'rate')
         
 
     def visualiseMultilayer(self, filename='multilayer_network'):
