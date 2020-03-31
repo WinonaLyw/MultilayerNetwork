@@ -40,7 +40,7 @@ food_locations.to_csv('data/poi.csv')
 food2 = pd.merge(food_locations[['venueId','venueCategory']], food[['venueCategory','Food Type']], how='left', on='venueCategory')
 food_type = list(set(food2['Food Type']))
 
-cols = ['venueId1', 'venueId2', 'similarityDistance']
+cols = ['venueId1', 'venueId2', 'similarity']
 sim = []
 for ftype in food_type:
     v_list = food2[food2['Food Type'] == ftype]
@@ -51,7 +51,7 @@ for ftype in food_type:
         v1 = v_list.loc[ind_list[i1]]
         for i2 in range(i1+1,M):
             v2 = v_list.loc[ind_list[i2]]
-            sim.append([v1['venueId'], v2['venueId'], 1 if v1['venueCategory'] == v2['venueCategory'] else 2])
+            sim.append([v1['venueId'], v2['venueId'], 2 if v1['venueCategory'] == v2['venueCategory'] else 1])
 
 sim_df = pd.DataFrame(sim, columns=cols)
 # %%

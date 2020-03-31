@@ -8,6 +8,7 @@ import math
 
 # %%
 user_loc1 = pd.read_csv('data/grouped_user_loc_count.parentCategory.csv', index_col=0)
+user_loc2 = pd.read_csv('data/user_loc_count.parentCategory.csv', index_col=0, header=[0,1])
 
 print (user_loc1.columns)
 

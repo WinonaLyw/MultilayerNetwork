@@ -27,13 +27,13 @@ nn.fit(user_loc1)
 dist, ind = nn.kneighbors(user_loc1, return_distance=True)
 
 # %%
-cols = ['userId1', 'userId2', 'similarityDistance']
+cols = ['userId1', 'userId2', 'similarity']
 sim = []
 
 for i in range(len(ind)):
     for n in range(N):
         for j in range(n*K+1, (n+1)*K+1):
-            sim.append([user_loc1.index[i], user_loc1.index[ind[i][j]], n+1])
+            sim.append([user_loc1.index[i], user_loc1.index[ind[i][j]], N - n])
 # %%
 sim_df = pd.DataFrame(sim, columns=cols)
 sim_df.to_csv('data/user_connect.csv')

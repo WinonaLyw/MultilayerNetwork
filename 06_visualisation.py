@@ -39,14 +39,24 @@ min	40.560883	-74.270118
 75%	40.771831	-73.951187
 max	40.988332	-73.683975
 '''
-lat1=40.780368902469434
-lat2=40.71669373711954
-lon1=-74.01693433928067
-lon2=-73.93320759226746
-cal_distance(lat1, lon1, lat2, lon2)
+# lat1=40.780368902469434
+# lat2=40.71669373711954
+# lon1=-74.01693433928067
+# lon2=-73.93320759226746
+# cal_distance(lat1, lon1, lat2, lon2)
+
+
+
+
+
+in_living = {'lon': -74.00000000, 'lat':40.74000000}
+out_living = {'lon': -73.95000000, 'lat':40.81500000}
+
+lat1, lon1, lat2, lon2 = loc_window(in_living['lat'], in_living['lon'])
+# lat1, lon1, lat2, lon2 = loc_window(out_living['lat'], out_living['lon'])
 
 # %%
-import random
+# import random
 userId = 130#random.randint(1, 1083)
 
 # %% sample poi in the target area
@@ -55,6 +65,9 @@ poi_s1 = poi[[(w[1].latitude>min(lat1,lat2) and
                     w[1].longitude>min(lon1,lon2) and 
                         w[1].longitude<max(lon1,lon2)) 
                             for w in poi.iterrows()]]
+
+
+available_poi = len(poi_s1)                            
 # poi_s = poi.sample(100)
 
 # inner join user_poi table and selected poi
@@ -87,7 +100,9 @@ venueCategory = pd.read_csv('data/category.csv',index_col=0)
 food = venueCategory[venueCategory['parentCategory']=='Food']
 
 poi_s = poi_s1.append(poi_s2)
-poi_s = poi_s.loc[~poi_s.index.duplicated(keep='first')]
+poi_s = poi_s.loc[~poi_s.index.duplicated(keep='last')] #'first'
+
+number_of_poi_for_prediction = len(poi_s)
 
 poi_nodes = poi_s
 poi_edges = []
@@ -135,7 +150,7 @@ user_edges = []
 for row in users_s1.iterrows():
     ind1 = user_nodes[user_nodes['userId'] == row[1]['userId1']].index[0]
     ind2 = user_nodes[user_nodes['userId'] == row[1]['userId2']].index[0]
-    user_edges.append((ind1, ind2, row[1]['similarityDistance']))
+    user_edges.append((ind1, ind2, row[1]['similarity']))
 
 # %% Define the type of interconnection between the layers
 N = len(poi_nodes)+len(user_nodes)
@@ -143,7 +158,7 @@ N1 = len(poi_nodes)
 adj_block = mx.lil_matrix(np.zeros((N,N)))
 
 user_poi_s = user_poi_s1.append(user_poi_s2)
-user_poi_s = user_poi_s.loc[~user_poi_s.index.duplicated(keep='first')]
+user_poi_s = user_poi_s.loc[~user_poi_s.index.duplicated(keep='last')]
 
 for row in user_poi_s.iterrows():
     user_ind = user_nodes[user_nodes['userId'] == row[1]['userId']].index[0]
@@ -222,5 +237,5 @@ mx.draw_networkx(mg,pos=pos,ax=ax2,node_size=50,with_labels=False,
                 edge_color=[mg[a][b]['weight'] for a,b in mg.edges()], edge_cmap=plt.cm.Blues)
    
 # plt.show()
-plt.savefig('output/multilayer_network_1.png')
-# %%
+plt.savefig('output/multilayer_network_2.png')
+
